@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 site_name: Zpark Lab
 repo_url: https://github.com/agenteccentric/zpark-lab
 site_url: https://agenteccentric.github.io/zpark-lab/
@@ -55,3 +56,31 @@ nav:
       - GitHub Workflows: devops/github.md
       - CI/CD for Learning Content: devops/cicd.md
   - About: about.md
+=======
+site_name: Crush Lab
+nav:
+  - Home: index.md
+  - Strategy: strategy/index.md
+  - Ramp to Rockstar: ramp-to-rockstar/index.md
+  - Enablement Strategy:
+      - Overview: strategy/overview.md
+      - Role Mapping: strategy/role-mapping.md
+      - Stakeholders: strategy/stakeholders.md
+  - Learning Paths:
+      - Sales Engineer: learning-paths/sales-engineer.md
+      - Solution Architect: learning-paths/solution-architect.md
+  - Tools and Platforms:
+      - Lakehouse Products Overview: tools/lakehouse.md
+      - Genie & Lakeflow: tools/genie-lakeflow.md
+      - Databricks One: tools/databricks-one.md
+  - AI Integration:
+      - Content Personalization: ai/content-personalization.md
+      - Notebook-Driven Training: ai/notebooks.md
+  - Analytics:
+      - Success Metrics: analytics/metrics.md
+      - Feedback Loops: analytics/feedback.md
+  - GitHub & Automation:
+      - CI/CD with MkDocs: devops/mkdocs-deploy.md
+      - Integration with Databricks Notebooks: devops/databricks-notebooks.md
+  - About: about.md
+>>>>>>> c75bb1c7cd355dada134ce9189a814118d0d2a1a

@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 # Welcome to Zpark Lab  
 ## A Strategic Enablement Portfolio for Databricks
 
 Zpark Lab is a portfolio and proof-of-concept dedicated to modernizing technical enablement for today’s AI-native data platforms—beginning with Databricks.
+=======
+# Welcome to Crush Lab
+
+This is a space for curiosity, clarity, and comeback.
+>>>>>>> c75bb1c7cd355dada134ce9189a814118d0d2a1a
 
 This project is my way of demonstrating how enablement can move beyond traditional training and become a scalable, strategic engine that aligns to product velocity, GTM goals, and real-world customer outcomes.
 
