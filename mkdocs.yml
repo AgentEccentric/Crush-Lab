@@ -1,6 +1,8 @@
 site_name: Crush Lab
 nav:
   - Home: index.md
+  - Strategy: strategy/index.md
+  - Ramp to Rockstar: ramp-to-rockstar/index.md
   - Enablement Strategy:
       - Overview: strategy/overview.md
       - Role Mapping: strategy/role-mapping.md
