@@ -1,28 +1,66 @@
-site_name: Crush Lab
+site_name: CrushLab
+# site_url: https://AgentEccentric.github.io/CrushLab/
+
 theme:
-  name: material
+  name: mkdocs
+  custom_dir: theme
+
+extra_css:
+  - theme/main.css
+
 nav:
   - Home: index.md
   - Strategy:
-      - Strategy: strategy/index.md
-      - Ramp to Rockstar: ramp-to-rockstar/index.md
       - Overview: strategy/overview.md
+      - Vision: strategy/vision.md
       - Role Mapping: strategy/role-mapping.md
       - Stakeholders: strategy/stakeholders.md
+      - Personas: strategy/personas.md
+      - Strategy Index: strategy/index.md
   - Learning Paths:
-      - Sales Engineer: learning-paths/sales-engineer.md
-      - Solution Architect: learning-paths/solution-architect.md
+      - Field Engineer: learning-paths/field-engineer.md
+      - Solutions Architect: learning-paths/solutions-architect.md
+      - Account Executive: learning-paths/account-executive.md
+      - Sales Manager: learning-paths/sales-manager.md
+      - Customer Success Manager: learning-paths/customer-success-manager.md
+      - Field Enablement Leader: learning-paths/field-enablement-leader.md
+      - Learning Paths Index: learning-paths/index.md
+  - Ramp to Rockstar:
+      - Ramp to Rockstar Index: ramp-to-rockstar/index.md
   - Tools and Platforms:
       - Lakehouse Products Overview: tools/lakehouse.md
-      - Genie & Lakeflow: tools/genie-lakeflow.md
+      - Genie & Lakeflow: tools/lakeflow.md
+      - Unity Catalog: tools/unity-catalog.md
       - Databricks One: tools/databricks-one.md
+      - Tools Index: tools/index.md
   - AI Integration:
       - Content Personalization: ai/content-personalization.md
-      - Notebook-Driven Training: ai/notebooks.md
+      - Notebooks: ai/notebooks.md
+      - AI in Enablement: ai/ai-in-enablement.md
+      - Prompting: ai/prompting.md
+      - AI Index: ai/index.md
   - Analytics:
-      - Success Metrics: analytics/metrics.md
-      - Feedback Loops: analytics/feedback.md
-  - GitHub & Automation:
+      - Metrics: analytics/metrics.md
+      - Measurement: analytics/measurement.md
+      - Feedback: analytics/feedback.md
+      - Usage: analytics/usage.md
+      - Analytics Index: analytics/index.md
+  - Certification:
+      - Certification Index: certification/index.md
+  - CoachBricks:
+      - AgentLab: coachbricks/agent-lab.md
+      - RampAgent: coachbricks/ramp-agent.md
+      - RampBuddy: coachbricks/ramp-buddy.md
+      - Ramp-to-Rockstar: coachbricks/ramp-to-rockstar.md
+      - CoachBricks Index: coachbricks/index.md
+  - DevOps:
       - CI/CD with MkDocs: devops/mkdocs-deploy.md
-      - Integration with Databricks Notebooks: devops/databricks-notebooks.md
+      - GitHub Integration: devops/github.md
+      - CICD: devops/cicd.md
+      - Databricks Notebooks: devops/databricks-notebooks.md
+      - DevOps Index: devops/index.md
+  - Impact:
+      - Impact Index: impact/index.md
+  - Team Leadership:
+      - Team Leadership Index: team-leadership/index.md
   - About: about.md
